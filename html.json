@@ -1,0 +1,54 @@
+{
+	 "HTML-START": {
+	 	"prefix": "xarv__html-start",
+	 	"body": [
+			"<!DOCTYPE html>",
+			"<html lang=\"en-US\">",
+			"<head>",
+			"    <meta charset=\"UTF-8\">",
+			"    <meta http-equiv=\"Content-Type\" content=\"text/html\">",
+			"    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">",
+			"    <title>${1:Default Title}</title>",
+			"    <link rel=\"shortcut icon\" href=\"favicon.ico\">",
+			"    <link rel=\"icon\" href=\"favicon.ico\">",
+			"    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/main.css\">",
+			"    <link rel=\"stylesheet\" type=\"text/css\" href=\"css/contant.css\">",
+			"    <script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js\"></script>",
+			"    <!--[if lt IE 9]>",
+			"    <script src=\"http://html5shiv.googlecode.com/svn/trunk/html5.js\"></script>",
+			"    <![endif]-->",
+			"</head>",
+			"<body>",
+			"    <div class=\"WebSite\">",
+			"        <!--HEADER-->",
+			"        <div class=\"header\">$2</div>",
+			"        <!--HEADER__END-->",
+			"        <!--CONTANT-->",
+			"        <div class=\"contant\">$3</div>",
+			"        <!--CONTANT__END-->",
+			"        <!--UNDER-->",
+			"        <div class=\"under\">$</div>",
+			"        <!--UNDER__END-->",
+			"    </div>",
+			"<!--SCRIPTS-->",
+			"<!--SCRIPTS__END-->",
+			"<!--by Xarvestor-->",
+			"<!--Thank you for taking advantage of my work. You can contact me on GitHub and VKontakte-->",
+			"<!--GitHub       https://github.com/Xarvestor -->",
+			"<!--Vkontakte    https://vk.com/xarvestor -->",
+			"</body>",
+			"</html>",
+	 	],
+	 	"description": "DEFAULT HTML-START SNIPPET by Xarvestor"
+	 },
+	 "META-DESC": {
+		"prefix": "xarv__meta-desk",
+		"body": "<meta name=\"description\" content=\"$1\">",
+		"description": "Meta Description"
+	 },
+	 "META-KEYWORDS": {
+		"prefix": "xarv__meta-ketwords",
+		"body": "<meta name=\"keywords\" content=\"$1\">",
+		"description": "Keywords"
+	 }
+	}
